@@ -2,7 +2,6 @@
 using System.Windows.Forms;
 using System.IO;
 using System.Net;
-using System.Diagnostics;
 
 namespace Ezan_Vakti
 {

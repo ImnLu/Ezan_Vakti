@@ -94,6 +94,7 @@
             this.Name = "SehirSecisEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Şehir Seçiş Ekranı";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SehirSecisEkrani_FormClosing);
             this.Load += new System.EventHandler(this.SehirSecisEkrani_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
